@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.20)  12 NOV 2024 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.20)  12 NOV 2024 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1715,29 +1715,39 @@ d on input line 23.
 (pdftex.def)             Requested size: 273.14647pt x 89.1612pt.
 
 (./ide/sevenseg/figs/sevenseg.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
-[]\OT1/txr/m/n/10 ESP32-devkit-v1: The ESP32-devkit-v1 has some ground pins,
+<ide/sevenseg/figs/esp32.png, id=152, 878.28125pt x 512.91624pt>
+File: ide/sevenseg/figs/esp32.png Graphic file (type png)
+<use ide/sevenseg/figs/esp32.png>
+Package pdftex.def Info: ide/sevenseg/figs/esp32.png  used on input line 46.
+(pdftex.def)             Requested size: 254.93626pt x 109.2574pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./ide/sevenseg/figs/breadboard-eps-converted-to.pdf>]
+Underfull \hbox (badness 2903) in paragraph at lines 52--54
+[]\OT1/txr/m/n/10 ESP32-devkit-v1: The ESP32-devkit-v1 in Fig []2.3[] has some 
+ground pins,
  []
 
-(./ide/sevenseg/figs/ard_breadboard.tex) [5 <./ide/sevenseg/figs/breadboard-eps
--converted-to.pdf>] (./ide/sevenseg/figs/ard_disp.tex) [6]
-(./ide/sevenseg/figs/sevenseg12.tex) (./ide/sevenseg/figs/arduinoport.tex
+[6 <./ide/sevenseg/figs/esp32.png>] (./ide/sevenseg/figs/ard_breadboard.tex)
+(./ide/sevenseg/figs/ard_disp.tex) (./ide/sevenseg/figs/sevenseg12.tex)
+[7] (./ide/sevenseg/figs/arduinoport.tex
 \gnumericColD=\skip88
 \gnumericColE=\skip89
 \gnumericColF=\skip90
 \gnumericColG=\skip91
 \gnumericColH=\skip92
 \gnumericColI=\skip93
-)
-(./ide/sevenseg/figs/ard_disp_num.tex)) [7] (./ide/7447/main.tex
-(./ide/7447/figs/7447_disp.tex) (./ide/7447/figs/bin2dec.tex)
-(./ide/7447/figs/7447.tex
+) (./ide/sevenseg/figs/ard_disp_num.tex)) [8] (./ide/7447/main.tex (./ide/7447/
+figs/7447_disp.tex)
+(./ide/7447/figs/bin2dec.tex) (./ide/7447/figs/7447.tex
 \myboxA=\box162
 \myboxB=\box163
 \mylenA=\skip94
-) (./ide/7447/figs/7447_ard.tex) [8]
-(./ide/7447/figs/counter_decoder.tex) (./ide/7447/figs/ip_7447_ard.tex)
-[9]) [10] (./ide/kmap/main.tex (./ide/kmap/figs/kmap_A.tex
+)
+(./ide/7447/figs/7447_ard.tex) [9] (./ide/7447/figs/counter_decoder.tex)
+(./ide/7447/figs/ip_7447_ard.tex) [10]) [11] (./ide/kmap/main.tex
+(./ide/kmap/figs/kmap_A.tex
 
 Package karnaugh-map Warning: The API for specifying variable labels have been 
 updated. You are currently using the old API(v1). In the new API each variable 
@@ -1767,7 +1777,7 @@ label is specified separately. See the documentation for more details. Backward
 \@karnaughmap@local@southeast@=\count413
 \@karnaughmap@local@northwest@=\count414
 \@karnaughmap@local@southeast@=\count415
-) [11] (./ide/kmap/figs/kmap_C.tex
+) [12] (./ide/kmap/figs/kmap_C.tex
 
 Package karnaugh-map Warning: The API for specifying variable labels have been 
 updated. You are currently using the old API(v1). In the new API each variable 
@@ -1784,7 +1794,7 @@ label is specified separately. See the documentation for more details. Backward
 \@karnaughmap@local@coordinatetwocounter@=\count423
 \@karnaughmap@local@coordinateonecounter@=\count424
 \@karnaughmap@local@coordinatetwocounter@=\count425
-) [12] (./ide/kmap/figs/kmap_D.tex
+) [13] (./ide/kmap/figs/kmap_D.tex
 
 Package karnaugh-map Warning: The API for specifying variable labels have been 
 updated. You are currently using the old API(v1). In the new API each variable 
@@ -1800,7 +1810,7 @@ label is specified separately. See the documentation for more details. Backward
 \gnumericColK=\skip96
 \gnumericColL=\skip97
 )) (./ide/dontcare/main.tex
-(./ide/dontcare/figs/dont_care_table.tex) [13]
+(./ide/dontcare/figs/dont_care_table.tex) [14]
 (./ide/dontcare/figs/kmap_A_x.tex
 
 Package karnaugh-map Warning: The API for specifying variable labels have been 
@@ -1817,7 +1827,7 @@ label is specified separately. See the documentation for more details. Backward
 )
 Underfull \vbox (badness 2318) has occurred while \output is active []
 
- [14]
+ [15]
 (./ide/dontcare/figs/kmap_B_x.tex
 
 Package karnaugh-map Warning: The API for specifying variable labels have been 
@@ -1865,7 +1875,7 @@ label is specified separately. See the documentation for more details. Backward
 \@karnaughmap@local@coordinatetwocounter@=\count459
 \@karnaughmap@local@coordinateonecounter@=\count460
 \@karnaughmap@local@coordinatetwocounter@=\count461
-) [15]) [16] (./ide/7474/main.tex (./ide/7474/figs/ff_ard_pin.tex
+) [16]) [17] (./ide/7474/main.tex (./ide/7474/figs/ff_ard_pin.tex
 \gnumericColM=\skip98
 \gnumericColN=\skip99
 \gnumericColO=\skip100
@@ -1944,8 +1954,8 @@ Overfull \hbox (3.32pt too wide) in paragraph at lines 50--50
 )
 Underfull \vbox (badness 1924) has occurred while \output is active []
 
- [17])
-[18] (./ide/fsm/main.tex (./ide/fsm/figs/fsm_counter.tex)
+ [18])
+[19] (./ide/fsm/main.tex (./ide/fsm/figs/fsm_counter.tex)
 (./ide/fsm/figs/dff.tex
 LaTeX Font Info:    Trying to load font information for OT1+txss on input line 
 144.
@@ -1972,8 +1982,8 @@ LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 )
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
- [19]
-[20]) [21] (./main.aux)
+ [20]
+[21]) [22] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1982,10 +1992,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 26276A3185E02532DE19E00A2CF283B4;2369.
  ) 
 Here is how much of TeX's memory you used:
- 56031 strings out of 474222
- 1325418 string characters out of 5748733
+ 56041 strings out of 474222
+ 1325690 string characters out of 5748733
  2026975 words of memory out of 5000000
- 77171 multiletter control sequences out of 15000+600000
+ 77179 multiletter control sequences out of 15000+600000
  653786 words of font info for 245 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,19n,109p,1206b,1420s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2000,10 +2010,10 @@ e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on main.pdf (21 pages, 637272 bytes).
+Output written on main.pdf (22 pages, 746692 bytes).
 PDF statistics:
- 498 PDF objects out of 1000 (max. 8388607)
- 443 compressed objects within 5 object streams
- 179 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 509 PDF objects out of 1000 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 181 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
