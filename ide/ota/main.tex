@@ -1,0 +1,42 @@
+Here we show how to program ESP32 through OTA using platformio.
+The below link guides to the codes required for implementation of ESP32 through OTA  
+\begin{lstlisting}
+https://github.com/pradyumna963/afw/tree/main/ide/ota
+\end{lstlisting}
+\begin{enumerate}[label=\arabic*.,ref=\theenumi]
+\item Follow the steps 1 and 2 given in section 1.2.
+\item Open the main.cpp file by excecting the below command in termux and change the SSID and password mentioned in the main code.
+\begin{lstlisting}
+nvim /ide/ota/blink/src/main
+\end{lstlisting}
+\item In termux excecte the following to generate the bin file:
+\begin{lstlisting}
+cd ide/ota/blink
+pio run
+\end{lstlisting}
+\item Create a folder in AruinoDroid/precompiled dirctory and copy paste the bin file to this folder by excecting the following commands:
+\begin{lstlisting}
+mkdir /sdcard/Arduinodroid/precompiled/blink_ota
+cp ls .pio/build/esp32doit-devkit-v1/firmware.bin /sdcard/Arduinodroid/precompiled/blink_ota
+\end{lstlisting}
+\item For flashing the bin files, open ArduinoDroid
+\begin{lstlisting}
+Actions->Upload->Upload Precompiled
+\end{lstlisting}
+then select 
+\begin{lstlisting}
+blink_ota->firmware.bin
+\end{lstlisting}
+for uploading the bin bile to the ESP32.
+\item After the uploading is finished you will get the following in the terminal.
+\begin{lstlisting}
+Error: open failed: ENOENT (No such file or directory)
+\end{lstlisting} 
+Disconnect the power supply and reconnect it, then the inbuilt led will start blink. The ESP32 will also be connected to the wifi network that is mntioned in the code.
+\item For the next program that needs to be flashed you can upload the code through OTA by excecuting the following commands in termux following commands
+\begin{lstlisting}
+cd -
+cd ide/ota/sevenseg/static
+pio run -t upload --upload-port 192.168.0.0 #use the IP address of the ESP32
+\end{lstlisting}
+\end{enumerate}
